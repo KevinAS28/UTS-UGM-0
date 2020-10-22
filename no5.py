@@ -23,3 +23,4 @@ CONTOH KELUARAN 2
 from math import floor
 T, H = list(map(int, input().split()))
 print(floor(T/3600)*H)
+    

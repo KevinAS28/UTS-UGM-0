@@ -13,5 +13,9 @@ CONTOH MASUKAN
 CONTOH KELUARAN
 2
 """
-
-print(sum([1 for i in input() if int(i)==0]))
+a = 0
+for i in input():
+    if int(i)==0:
+        a+=1
+print(a)
+# print(sum([1 for i in input() if int(i)==0]))

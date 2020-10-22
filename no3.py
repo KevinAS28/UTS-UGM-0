@@ -36,4 +36,4 @@ for sc in scores:
     else:
         letters[2]+=1
 
-print(letters)
+print(" ".join([str(i) for i in letters]))
